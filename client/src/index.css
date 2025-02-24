@@ -1,0 +1,95 @@
+/* index.css */
+:root {
+  --primary-color: #4338CA;
+  --secondary-color: #172b4d;
+  --accent-color: #36b37e;
+  --background-color: #f5f7fa;
+  --card-background: #ffffff;
+  --font-family: 'Roboto', sans-serif;
+  --border-radius: 8px;
+  --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --input-border: #ccd0d5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  padding-top: 0px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1,
+h3 {
+  color: var(--primary-color);
+}
+
+.card {
+  background-color: var(--card-background);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  margin-bottom: 2rem;
+}
+
+
+
+button {
+  background: linear-gradient(135deg, #4338CA, #6366F1);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px -1px rgba(67, 56, 202, 0.3),
+              0 4px 6px -1px rgba(67, 56, 202, 0.2);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table th,
+table td {
+  border: 1px solid #e1e4e8;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+table th {
+  background-color: #f0f2f5;
+}
+
+.export-buttons button {
+  margin-right: 1rem;
+  margin-top: 0;
+}
+
+.chart-component {
+  margin-top: 1rem;
+}
